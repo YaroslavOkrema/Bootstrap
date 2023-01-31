@@ -2,7 +2,7 @@
     --color1: #05b1b1;
     --color2: #52339a;
 }
-header, footer, section{
+section{
     padding: 100px 0;
 }
 header{
@@ -79,7 +79,7 @@ background-size: contain;
 
 /*О курсе*/
 
-.about, .shedule, .learning{
+.about, .shedule, .author, .buy{
     background-color: #eee;
 }
 
@@ -106,6 +106,13 @@ background-size: contain;
     margin: 15px auto 30px;
 }
 
+.line2{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
+
 /*Для кого курс*/
 .forwhom h5 {
     padding: 50px;
@@ -127,6 +134,25 @@ background-size: contain;
 .learning h5{
     padding: 25px;
     border: 3px solid var(--color1);
+}
+
+/*Автор*/
+.author{
+    padding-bottom: 0;
+}
+.itd_img{
+    max-width: 260px;
+}
+
+/*Отзывы*/
+.photo{
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
+
+/*Подвал*/
+footer{
+    padding: 30px 0;
 }
 
 /*Цвет*/
